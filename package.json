@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Backend para AppSalon en MEVN",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
+    "start": "node index.mjs",
+    "dev": "node --watch index.mjs",
     "seed:import": "node data/seed.js --import",
     "seed:destroy": "node data/seed.js --destroy"
   },
