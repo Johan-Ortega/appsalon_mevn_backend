@@ -22,7 +22,7 @@ app.use(express.json())
 db()
 
 //Configurar CORS
-const whitelist = [process.env.FRONTEND_URL, undefined]
+const whitelist = process.env.FRONTEND_URL
 
 const corsOptions = {
     origin: function(origin, callback){
